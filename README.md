@@ -2,13 +2,14 @@
 
 Leanware backend integration challenge
 
-## Before doing anything, install dependencies
+1. Before doing anything, install dependencies
 
 ```bash
 $ npm install
 ```
+2. Then, copy the .env file I gave in the root folder
 
-## To run the app
+3. To run the app
 
 ```bash
 # development
@@ -16,7 +17,7 @@ $ npm run start
 
 ```
 
-## To run the tests
+4. To run the tests
 
 ```bash
 $ npm run test:e2e
