@@ -24,7 +24,8 @@ async function bootstrap() {
         }
     }
     app.use(logger);
-    await app.listen(3000);
+    app.enableCors();
+    await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
